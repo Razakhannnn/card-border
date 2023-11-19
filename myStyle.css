@@ -1,0 +1,71 @@
+h2 {
+    background-color: green;
+}
+
+div {
+    background-color: lightblue;
+}
+
+p {
+    background-color: yellow;
+}
+
+span {
+    background-color: aqua;
+
+}
+
+
+* {
+    font-family: 'Siginika Negative', sans-serif;
+}
+
+.MacBook {
+    height: 195%;
+    width: 195%;
+    margin: 15%;
+    padding: 30;
+    border: 60%;
+    border-image: url(border-image\ \(1\).png);
+    border-image: 23.10;
+    border-image-repeat: repeat;
+}
+
+p {
+    margin: 16px;
+    max-height: 360px;
+
+    overflow: hidden;
+    text-align: left;
+    font-weight: 599;
+
+}
+
+span {
+    font-size: 24px;
+    margin: 9px;
+    font-weight: bolder;
+    transition: transform 300ms;
+}
+
+span:hover {
+    transform: scale(2);
+    font-size: 27px;
+}
+
+
+
+img {
+    /*transition: transform 100ms8*/
+}
+
+img:hover {
+    transform: scale(1.2);
+    /* width: 10%; */
+    /* height: 10%; */
+}
+
+p {
+    border: 20px solid rgb(22, 204, 224);
+    border-radius: 5px;
+}
